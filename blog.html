@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog – okiyu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+      }
+      .flexoki-shadow {
+        box-shadow: 0 2px 16px 0 rgba(160, 126, 86, 0.07);
+      }
+    </style>
+  </head>
+  <body class="bg-[#f8f5f2] text-[#2d2a2e]">
+    <header class="bg-white flexoki-shadow">
+      <div
+        class="max-w-3xl mx-auto px-4 py-6 flex flex-col md:flex-row md:items-center md:justify-between"
+      >
+        <h1 class="text-3xl font-bold tracking-tight text-[#2d2a2e]">okiyu</h1>
+        <nav class="mt-4 md:mt-0 flex space-x-6 text-base">
+          <a
+            href="index.html"
+            class="text-[#a07e56] hover:underline font-medium"
+            >Startseite</a
+          >
+          <a href="blog.html" class="text-[#a07e56] hover:underline font-medium"
+            >Blog</a
+          >
+          <a
+            href="impressum.html"
+            class="text-[#a07e56] hover:underline font-medium"
+            >Impressum</a
+          >
+          <a
+            href="datenschutz.html"
+            class="text-[#a07e56] hover:underline font-medium"
+            >Datenschutz</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main class="max-w-3xl mx-auto px-4 py-12">
+      <h2 class="text-2xl font-semibold mb-6">Blog</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>
+          <a href="blog/post1.md" class="text-[#a07e56] hover:underline"
+            >Blogpost 1</a
+          >
+        </li>
+        <li>
+          <a href="blog/post2.md" class="text-[#a07e56] hover:underline"
+            >Blogpost 2</a
+          >
+        </li>
+      </ul>
+      <p class="mt-8 text-sm text-gray-500">
+        Blogposts liegen als Markdown-Dateien im <code>blog/</code>-Ordner.
+      </p>
+    </main>
+    <footer class="bg-white flexoki-shadow mt-10">
+      <div
+        class="max-w-3xl mx-auto px-4 py-4 text-center text-sm text-[#a07e56]"
+      >
+        &copy; 2025 okiyu. Alle Rechte vorbehalten.
+      </div>
+    </footer>
+  </body>
+</html>
