@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Blog - Okiyu</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Okiyu Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+  <main>
+    <ul id="post-list" class="post-list"></ul>
+    <div id="post-view" class="post-content"></div>
+  </main>
+  <script>
+    const posts = [];
+    async function loadPosts() {
+      try {
+        const res = await fetch('posts/index.json');
+        const data = await res.json();
+        data.forEach(post => posts.push(post));
+        renderList();
+      } catch (err) {
+        document.getElementById('post-list').innerHTML = '<li>No posts found.</li>';
+      }
+    }
+    function renderList() {
+      const list = document.getElementById('post-list');
+      list.innerHTML = '';
+      posts.forEach(p => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + p.file;
+        a.textContent = p.title + ' (' + p.date + ')';
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+    }
+    async function loadPost(filename) {
+      const res = await fetch('posts/' + filename);
+      const md = await res.text();
+      document.getElementById('post-view').innerHTML = marked.parse(md);
+    }
+    window.addEventListener('hashchange', () => {
+      const file = location.hash.slice(1);
+      if(file) loadPost(file);
+    });
+    loadPosts();
+  </script>
+</body>
+</html>
