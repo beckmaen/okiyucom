@@ -1,0 +1,56 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "okiyu",
+    "description": "",
+    "home_page_url": "https://beckmaen.github.io/okiyucom",
+    "feed_url": "https://beckmaen.github.io/okiyucom/feed.json",
+    "user_comment": "",
+    "icon": "https://beckmaen.github.io/okiyucom/media/website/okiyu-logo-25-2.svg",
+    "author": {
+        "name": "okiyu"
+    },
+    "items": [
+        {
+            "id": "https://beckmaen.github.io/okiyucom/hhsahxaox/",
+            "url": "https://beckmaen.github.io/okiyucom/hhsahxaox/",
+            "title": "hhsahxaox",
+            "summary": "3 k",
+            "content_html": "<p>3</p><p>k</p>",
+            "author": {
+                "name": "okiyu"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-08-08T16:46:31+02:00",
+            "date_modified": "2025-08-08T16:46:31+02:00"
+        },
+        {
+            "id": "https://beckmaen.github.io/okiyucom/abc/",
+            "url": "https://beckmaen.github.io/okiyucom/abc/",
+            "title": "abc",
+            "summary": "dereg",
+            "content_html": "<p>dereg</p>",
+            "author": {
+                "name": "okiyu"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-08-08T16:35:20+02:00",
+            "date_modified": "2025-08-08T16:35:20+02:00"
+        },
+        {
+            "id": "https://beckmaen.github.io/okiyucom/testartikel/",
+            "url": "https://beckmaen.github.io/okiyucom/testartikel/",
+            "title": "More to come",
+            "summary": "or maybe not",
+            "content_html": "<p>or maybe not</p>",
+            "author": {
+                "name": "okiyu"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-08-08T15:48:36+02:00",
+            "date_modified": "2025-08-08T16:00:22+02:00"
+        }
+    ]
+}

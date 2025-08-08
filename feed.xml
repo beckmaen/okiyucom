@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>okiyu</title>
+    <link href="https://beckmaen.github.io/okiyucom/feed.xml" rel="self" />
+    <link href="https://beckmaen.github.io/okiyucom" />
+    <updated>2025-08-08T16:46:31+02:00</updated>
+    <author>
+        <name>okiyu</name>
+    </author>
+    <id>https://beckmaen.github.io/okiyucom</id>
+
+    <entry>
+        <title>hhsahxaox</title>
+        <author>
+            <name>okiyu</name>
+        </author>
+        <link href="https://beckmaen.github.io/okiyucom/hhsahxaox/"/>
+        <id>https://beckmaen.github.io/okiyucom/hhsahxaox/</id>
+
+        <updated>2025-08-08T16:46:31+02:00</updated>
+            <summary>
+                <![CDATA[
+                    3 k
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>3</p><p>k</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>abc</title>
+        <author>
+            <name>okiyu</name>
+        </author>
+        <link href="https://beckmaen.github.io/okiyucom/abc/"/>
+        <id>https://beckmaen.github.io/okiyucom/abc/</id>
+
+        <updated>2025-08-08T16:35:20+02:00</updated>
+            <summary>
+                <![CDATA[
+                    dereg
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>dereg</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>More to come</title>
+        <author>
+            <name>okiyu</name>
+        </author>
+        <link href="https://beckmaen.github.io/okiyucom/testartikel/"/>
+        <id>https://beckmaen.github.io/okiyucom/testartikel/</id>
+
+        <updated>2025-08-08T15:48:36+02:00</updated>
+            <summary>
+                <![CDATA[
+                    or maybe not
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>or maybe not</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
