@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://beckmaen.github.io/okiyucom/sitemap.xml

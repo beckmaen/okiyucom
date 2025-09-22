@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>okiyu</title>
+    <link href="https://beckmaen.github.io/okiyucom/feed.xml" rel="self" />
+    <link href="https://beckmaen.github.io/okiyucom" />
+    <updated>2025-08-08T16:00:22+02:00</updated>
+    <author>
+        <name>okiyu</name>
+    </author>
+    <id>https://beckmaen.github.io/okiyucom</id>
+
+    <entry>
+        <title>More to come</title>
+        <author>
+            <name>okiyu</name>
+        </author>
+        <link href="https://beckmaen.github.io/okiyucom/testartikel/"/>
+        <id>https://beckmaen.github.io/okiyucom/testartikel/</id>
+
+        <updated>2025-08-08T15:48:36+02:00</updated>
+            <summary>
+                <![CDATA[
+                    or maybe not
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>or maybe not</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
